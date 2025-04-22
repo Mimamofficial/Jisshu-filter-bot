@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "https://t.me/mimam_officialx") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002338765286'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MRN_Movies_Search_Group')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002670141750').split()]
@@ -51,8 +51,8 @@ SHORTENER_API = environ.get("SHORTENER_API", "97b4c035eaa8da4f8087584abd9f9030d3
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkcents.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "f2566f9573335044e60a2d14d537931e0a9ecd8d")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'papajiurl.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "931dc3d2b822191032f43d523eae9de35fcc808c")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortner.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', '')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
