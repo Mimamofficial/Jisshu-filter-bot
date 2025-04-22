@@ -1042,7 +1042,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           chat_id=query.message.chat.id,
           message_id=query.message.id,
           media=InputMediaAnimation(
-            media="https://files.catbox.moe/niv3cl.jpg",
+            media="https://graph.org/file/245e9fff541650b32178b-f1ac2edde9b1f57412.jpg",
             caption=script.GROUP_TEXT.format(temp.B_LINK),
             parse_mode=enums.ParseMode.HTML
         ),
