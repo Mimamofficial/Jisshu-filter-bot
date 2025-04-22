@@ -42,11 +42,11 @@ class script(object):
     ABOUT_TEXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
 ├⍟ 🎭 Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ├⍟ 🇮🇳 Cʀᴇᴀᴛᴏʀ : <a href={}>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a> 
-├⍟ 📚 Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
-├⍟ 🍿 Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
-├⍟ 🐍 DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ ⚙️ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
-├⍟ 🥶 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ5.2 [ ꜱᴛᴀʙʟᴇ ]
+├⍟ 📚 Lɪʙʀᴀʀʏ : <a ᴘʏʀᴏɢʀᴀᴍ</a>
+├⍟ 🍿 Lᴀɴɢᴜᴀɢᴇ : <a ᴘʏᴛʜᴏɴ</a>
+├⍟ 🐍 DᴀᴛᴀBᴀsᴇ : <a ᴍᴏɴɢᴏ ᴅʙ</a>
+├⍟ ⚙️ Hᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ</a>
+├⍟ 🥶 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]
 ╰───────────────⍟</b>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
