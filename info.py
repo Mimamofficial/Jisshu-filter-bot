@@ -7,7 +7,7 @@ def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
         return True
     elif value.lower() in ["false", "no", "0", "disable", "n"]:
-        return False
+        return True
     else:
         return default
 #---------------------------------------------------------------
@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/mimam_officialx") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002338765286'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MRN_Movies_Search_Group')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movies_Tv_Serial_Request')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002670141750').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -73,7 +73,7 @@ START_IMG = (environ.get('START_IMG', 'https://i.postimg.cc/8C15CQ5y/1.png https
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://files.catbox.moe/cduzzd.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/55y5et.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/wcjkwo.jpg))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/wcjkwo.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
