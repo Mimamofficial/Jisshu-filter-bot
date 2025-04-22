@@ -39,15 +39,8 @@ class script(object):
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/MRN_RIPPER'>MRN_RIPPER</a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟
-├⍟ 🎭 Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ 🇮🇳 Cʀᴇᴀᴛᴏʀ : <a href={}>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a> 
-├⍟ 📚 Lɪʙʀᴀʀʏ : <a ᴘʏʀᴏɢʀᴀᴍ</a>
-├⍟ 🍿 Lᴀɴɢᴜᴀɢᴇ : <a ᴘʏᴛʜᴏɴ</a>
-├⍟ 🐍 DᴀᴛᴀBᴀsᴇ : <a ᴍᴏɴɢᴏ ᴅʙ</a>
-├⍟ ⚙️ Hᴏsᴛᴇᴅ ᴏɴ  : ᴀʟʟ ᴡᴇʙ</a>
-├⍟ 🥶 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ5.2 [sᴛᴀʙʟᴇ]
-╰───────────────⍟</b>"""    
+    ABOUT_TEXT = """<blockquote><b>╭────[ ᴍʏ ᴅᴇᴛᴀɪʟs ]────⍟\n├⍟ 🎭 Mʏ Nᴀᴍᴇ : <a href=https://t.me/{}>{}</a>\n├⍟ 🇮🇳 Cʀᴇᴀᴛᴏʀ : <a href={}>꧁𓊈𒆜𝖒𝖎𝖒𝖆𝖒_𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑𒆜𓊉꧂</a> \n├⍟ 📚 Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>\n├⍟ 🍿 Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> \n├⍟ 🐍 DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> \n├⍟ ⚙️ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> \n├⍟ 🥶 Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
+╰───────────────⍟</b></blockquote>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
