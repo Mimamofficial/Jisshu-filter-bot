@@ -35,10 +35,10 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002338765286'))  # set s
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002338765286'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002111679640')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001991790282'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001837163489'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002232443823') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002275478487')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Tv_Serial_Search_Group') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MRN_Movies_Search_Group') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
